@@ -10,10 +10,17 @@ Integrating the numverify API into your application will allow you to verify the
 I was practicing Rust and decided to upload this script.
 
 
-
 > Run Code
 ```Bash
 1 - cd /Code-projects/Numverify-Req-Api/src 
 2 - cargo clean
 3 - cargo run main.rs
 ``` 
+
+Make sure to review and understand the script before running it, and also to change the fields like the Number, etc., to the ones you want !!!!
+
+```rust
+let api_key = "Key";
+let phone_number = "Number"; // Ex 787
+let country_code = "Code"; // Ex US
+```
